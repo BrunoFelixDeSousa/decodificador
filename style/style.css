@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E9ECF8;
+}
+
+body .container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 600px;
+    background-color: #E9ECF8;
+}
+
+header img {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.container {
+    display: flex;
+    gap: 16px;
+
+}
+
+.container__entrada__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    flex: 2 1 800px;
+    height: 100%;
+    margin: 16px 100px 0;
+
+}
+
+.container__texto {
+     width: 100%;
+    height: 100%;
+}
+
+.container__resposta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    flex: 1 1 400px;
+    height: 80%;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.caixa__resposta {
+    /* margin: 16px; */
+    background-color: #fff;
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.container__section__texto{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    /* margin: 160px; */
+    outline: none;
+    cursor: pointer;
+
+}
+
+.container__butoes {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    justify-content: center;
+}
+
+.container__section__leitura{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    outline: none;
+}
+
+
+.div__botao__1 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+color: #fff;
+
+
+background: #0A3871;
+border-radius: 24px;
+}
+
+.div__botao__2 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+border: 1px solid #0A3871;
+background-color: #fff;
+color: #0A3871;
+border-radius: 24px;
+}
+
+.div__botao__3 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+border: 1px solid #0A3871;
+background-color: #fff;
+color: #0A3871;
+border-radius: 24px;
+
+}

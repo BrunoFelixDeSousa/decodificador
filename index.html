@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="img/logo.svg" alt="logo alura">
+    </header>
+
+    <main class="container">
+        <section class="container__entrada__texto">
+            <div class="container__texto">
+                <textarea class="container__section__texto" placeholder="Escreva o seu texto" id="area"></textarea>
+                
+            </div>
+            <div class="container__butoes">
+                <input class="div__botao__1" type="button" value="Criptografar" id="botao1" onclick="mostrarNaTela('area', 'botao1')">
+                <input class="div__botao__2" type="button" value="Descriptografar" id="botao2" onclick="mostrarNaTela('area', 'botao2')">
+            </div>
+
+        </section>
+        <section class="container__resposta">
+            <div class="caixa__resposta">
+                <textarea class="container__section__leitura" id="textoInput" readonly></textarea>
+                <input class="div__botao__3" type="button" value="Copiar" id="botao3" onclick="copiarTexto()"> 
+            </div>
+        </section>
+        
+    </main>
+
+        <script src="script.js"></script>
+</body>
+</html>
